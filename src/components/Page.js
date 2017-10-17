@@ -11,11 +11,14 @@ export const Page = View.extend`
         margin-left: auto;
         margin-right: auto;
     }
+`
 
+export const Content = View.extend`
     @media print {
-        padding: 0;
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         justify-content: space-between;
+        height: 870px;
     }
 `

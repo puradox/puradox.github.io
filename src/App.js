@@ -13,8 +13,7 @@ injectGlobal`
   html * {
     font-family: 'Bitter', serif;
     @media print {
-      font-size: 13px;
-      height: 100%;
+      font-size: 12px;
     }
   }
 `
