@@ -9,6 +9,6 @@ export const Section = styled.section`
     width: 100%;
 
     @media print {
-        width: 45%;
+        width: 48.5%;
     }
 `

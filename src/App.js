@@ -10,10 +10,15 @@ import {
 import { Home } from './containers'
 
 injectGlobal`
-  html * {
-    font-family: 'Bitter', serif;
+  html body {
+    margin: 0;
+  }
+
+  #root {
     @media print {
-      font-size: 12px;
+      width: 8.5in;
+      height: 11in;
+      font-size: 13px;
     }
   }
 `
