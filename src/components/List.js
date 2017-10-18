@@ -28,7 +28,9 @@ const Item = styled.li`
 export const List = (props: Props) => (
     <ListContainer>
         {props.items.map(item => (
-            <Item><Text>{item}</Text></Item>
+            <Item key={item}>
+                <Text>{item}</Text>
+            </Item>
         ))}
     </ListContainer>
 )
