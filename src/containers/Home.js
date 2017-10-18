@@ -30,7 +30,7 @@ export const Home = () => (
                 items={[
                     'BS in Computer Science and Engineering at University of California Irvine (2015 - 2019)',
                     'Relevant classwork: Data Structures, Networks, Organization, Operating Systems, Languages',
-                    'GPA - 3.461',
+                    'GPA - 3.461; Dean\'s honor list - 3 quarters',
                 ]}
             />
         </Section>
@@ -38,6 +38,7 @@ export const Home = () => (
             <Header>Proficiencies</Header>
             <List
                 items={[
+                    'Go, Python, Java, JavaScript, C, C++',
                     'Large-scale frontend web architecture',
                     'React, Redux and ES2017',
                     'Reliable backend architecture',
@@ -46,8 +47,6 @@ export const Home = () => (
                     'Docker and Kubernetes',
                     'Cross-platform mobile application development',
                     'React Native, iOS and Android',
-                    'Knowledge of many programming languages and very adaptable to change',
-                    'Go, Python, Java, JavaScript, C, C++'
                 ]}
             />
         </Section>
