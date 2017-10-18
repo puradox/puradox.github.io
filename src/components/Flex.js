@@ -1,6 +1,5 @@
 // @flow
 
-import styled from 'styled-components'
 import { View } from './View'
 
 type Props = {
@@ -11,7 +10,7 @@ type Props = {
 
 export const Flex = View.extend`
     display: flex;
-    ${props => props.col && 'flex-direction: column;'}
-    ${props => props.justify && `justify-content: ${props.justify};`}
-    ${props => props.align && `align-items: ${props.align};`}
+    ${(props: Props) => props.col && 'flex-direction: column;'}
+    ${(props: Props) => props.justify && `justify-content: ${props.justify};`}
+    ${(props: Props) => props.align && `align-items: ${props.align};`}
 `

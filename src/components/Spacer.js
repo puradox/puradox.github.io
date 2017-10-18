@@ -7,5 +7,5 @@ type Props = {
 }
 
 export const Spacer = View.extend`
-    margin: ${props => props.size || '0.5em'};
+    margin: ${(props: Props) => props.size || '0.5em'};
 `

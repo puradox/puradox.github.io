@@ -2,9 +2,6 @@
 
 import styled from 'styled-components'
 
-type Props = {
-}
-
 export const Text = styled.span`
     font-family: 'Bitter', serif;
     font-size: '1.15em';
