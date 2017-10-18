@@ -46,6 +46,8 @@ export const Home = () => (
                     'Docker and Kubernetes',
                     'Cross-platform mobile application development',
                     'React Native, iOS and Android',
+                    'Knowledge of many programming languages and very adaptable to change',
+                    'Go, Python, Java, JavaScript, C, C++'
                 ]}
             />
         </Section>
