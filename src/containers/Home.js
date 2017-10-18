@@ -64,7 +64,7 @@ export const Home = () => (
             <Header>Projects</Header>
             <List
                 items={[
-                    'Schemed.io is a service to plan meetups; taught and led small frontend team (React); focusing on the backend (Go, MongoDB)',
+                    'Schemed.io is a service to plan meet-ups; taught and led small frontend team (React); focusing on the backend (Go, MongoDB)',
                     'Boxmodel is a library for organizing mass amounts of data types for use in frontend development (React, Redux)',
                     'Tetris Clone is a class final project introducing programming patterns and idioms (Java)',
                 ]}
@@ -85,7 +85,7 @@ export const Home = () => (
                     'Created backitup, a utility program for regularly scheduling database backups to Amazon S3; saving the company $30 per month (Go, RethinkDB)',
                     'Training incoming frontend developers (React, React Native)',
                     'Leading a team to build the following frontend applications:',
-                    'Supervised Ardent Classroom, an iPad app for staff that eases student attendence and file management (React Native)',
+                    'Supervised Ardent Classroom, an iPad app for staff that eases student attendance and file management (React Native)',
                     'Supervised Ardent Family, an iOS and Android app that notifies parents of student performance and news (React Native)',
                 ]}
             />
