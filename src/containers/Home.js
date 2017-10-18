@@ -1,7 +1,7 @@
 // @flow
 
 import React from 'react'
-import { Page, Content, Flex, Feature, Header, Line, List, PrintOnly, Section, Spacer, Text, Title, Experience } from '../components'
+import { Page, Content, Flex, Feature, Header, Line, List, PrintOnly, Section, Text, Title, Experience } from '../components'
 
 export const Home = () => (
     <Page>
