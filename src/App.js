@@ -5,9 +5,10 @@ import { injectGlobal } from 'styled-components'
 import {
   BrowserRouter as Router,
   Route,
+  Switch,
 } from 'react-router-dom'
 
-import { Home } from './containers'
+import { Resume } from './containers'
 
 injectGlobal`
   html body {
@@ -25,7 +26,16 @@ injectGlobal`
 
 const App = () => (
   <Router>
-    <Route exact path="/" component={Home} />
+    <Switch>
+      <Route exact path="/" render={() => <Resume company='' />} />
+      <Route
+        path="/:company"
+        render={props => {
+          const company = props.match.params.company || ''
+          return <Resume company={company.toLowerCase()} />
+        }}
+      />
+    </Switch>
   </Router>
 )
 

@@ -10,14 +10,14 @@ type Props = {
 
 const ListContainer = styled.ul`
     margin: 0;
-    padding-left: .75em;
-    text-indent: -.75em;
+    padding-left: .9em;
+    text-indent: -.9em;
     list-style-type: none;
 `
 
 const Item = styled.li`
     &:before {
-        content: "\\2022";
+        content: "●";
         color: #b8b8b8;
         margin-right: 0.3em;
     }
@@ -27,9 +27,13 @@ const Item = styled.li`
 
 export const List = (props: Props) => (
     <ListContainer>
-        {props.items.map(item => (
+        {props.items.map((item, index) => typeof item === 'string' ? (
             <Item key={item}>
                 <Text>{item}</Text>
+            </Item>
+        ) : (
+            <Item key={index}>
+                {item}
             </Item>
         ))}
     </ListContainer>

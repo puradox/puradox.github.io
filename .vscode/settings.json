@@ -14,9 +14,11 @@
         "proficiencies",
         "sambalana",
         "sbalana",
+        "sendgrid",
         "testaker",
         "tetris",
         "tockins",
         "voluntu"
-    ]
+    ],
+    "javascript.validate.enable": false
 }
