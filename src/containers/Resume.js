@@ -16,7 +16,7 @@ export const Resume = (props: Props) => (
     <Page>
         <Flex justify='space-between'>
             <Title>SAM BALANA</Title>
-            <Flex col justify='space-around' align='flex-end'>
+            <Flex col justify='flex-end' align='flex-end'>
                 <Text>sbalana@uci.edu</Text>
                 <Text>(562) 405-9890</Text>
                 <PrintOnly>
