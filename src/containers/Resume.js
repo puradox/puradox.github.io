@@ -68,11 +68,10 @@ export const Resume = (props: Props) => (
             />
             <Experience
                 position='Freelance Web Developer'
-                company='Self-employment'
                 from='January 2017'
                 to='current'
                 highlights={[
-                    <Text>Build <Link to='https://archangelrs.com/'>website/blog</Link> for Archangel Risk Solutions (Ember.js)</Text>,
+                    <Text>Build <Link to='https://archangelrs.com/'>website and blog</Link> for Archangel Risk Solutions (Ember.js)</Text>,
                     'Design logo for Archangel Risk Solutions (Illustrator)',
                     'Develop an online payment portal for Archangel Risk Solutions (Node.js, MongoDB, REST, React, Redux)',
                 ]}

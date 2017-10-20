@@ -7,7 +7,7 @@ import { List } from './List'
 
 type Props = {
     position: string,
-    company: string,
+    company?: string,
     from: string,
     to: string,
     highlights: string[],
@@ -38,7 +38,7 @@ const Time = styled.span`
 export const Experience = (props: Props) => (
     <Container>
         <Position>{props.position}</Position>
-        <Company>{props.company}</Company>
+        {props.company && <Company>{props.company}</Company>}
         <Time>{props.from} - {props.to}</Time>
         <List items={props.highlights} />
     </Container>
