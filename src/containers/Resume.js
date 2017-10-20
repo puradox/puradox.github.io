@@ -1,11 +1,15 @@
 // @flow
 
 import React from 'react'
-import { Page, Content, Flex, Feature, Header, Line, Link, List, PrintOnly, Section, Text, Title, Experience } from '../components'
+import { Page, Content, Flex, Feature, Header, Line, Link, List, PrintOnly, ScreenOnly, Section, Spacer, Text, Title, Experience } from '../components'
 import { chooseClasswork, chooseContributions, chooseExperience, chooseFeature, chooseProficiencies, chooseProjects } from './info'
 
 type Props = {
     company: string,
+}
+
+function toTitle (company: string) {
+    return `${company.substr(0, 1).toUpperCase()}${company.substr(1)}`
 }
 
 export const Resume = (props: Props) => (
@@ -22,6 +26,17 @@ export const Resume = (props: Props) => (
         </Flex>
         <Line />
         <Content>
+        {props.company && (
+            <ScreenOnly>
+                <Section>
+                    <Text>
+                        <b>Hey {toTitle(props.company)}!</b> Glad to see you back! If you're
+                        technically inclined, take a look at my resume's source code on <Link to='https://github.com/puradox/resume'>GitHub</Link>.
+                    </Text>
+                </Section>
+                <Spacer size='0.7em' />
+            </ScreenOnly>
+        )}
         <Section>
             <Feature>{chooseFeature(props.company)}</Feature>
         </Section>
@@ -71,7 +86,7 @@ export const Resume = (props: Props) => (
                 from='January 2017'
                 to='current'
                 highlights={[
-                    <Text>Build <Link to='https://archangelrs.com/'>website and blog</Link> for Archangel Risk Solutions (Ember.js)</Text>,
+                    <Text>Build <Link to='https://archangelrs.com/'>website/blog</Link> for Archangel Risk Solutions (Ember.js)</Text>,
                     'Design logo for Archangel Risk Solutions (Illustrator)',
                     'Develop an online payment portal for Archangel Risk Solutions (Node.js, MongoDB, REST, React, Redux)',
                 ]}
