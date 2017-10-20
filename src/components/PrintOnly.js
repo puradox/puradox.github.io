@@ -3,7 +3,7 @@
 import { View } from './View'
 
 export const PrintOnly = View.extend`
-    @media screen {
+    @media not print {
         display: none;
     }
 `
