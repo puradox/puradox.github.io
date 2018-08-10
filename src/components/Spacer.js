@@ -1,11 +1,11 @@
 // @flow
 
-import { View } from './View'
+import { View } from "./View";
 
 type Props = {
-    size: string,
-}
+  size: string
+};
 
 export const Spacer = View.extend`
-    margin: ${(props: Props) => props.size || '0.5em'};
-`
+  margin: ${(props: Props) => props.size || "0.5em"};
+`;

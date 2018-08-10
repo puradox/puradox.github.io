@@ -1,14 +1,14 @@
 // @flow
 
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Section = styled.section`
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 
-    width: 100%;
+  width: 100%;
 
-    @media print {
-        width: 48.5%;
-    }
-`
+  @media print {
+    width: 48.5%;
+  }
+`;

@@ -1,7 +1,7 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import App from './App'
-import registerServiceWorker from './utils/registerServiceWorker'
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import registerServiceWorker from "./utils/registerServiceWorker";
 
 console.info(`Oh hey!
 If you are reading this, we should definitely work together!
@@ -21,7 +21,7 @@ I only use what I need.
 
 If you have any questions, or just want to geek over React or Go, email me!
 Don't be a stranger :)
-`)
+`);
 
-ReactDOM.render(<App />, document.getElementById('root'))
-registerServiceWorker()
+ReactDOM.render(<App />, document.getElementById("root"));
+registerServiceWorker();

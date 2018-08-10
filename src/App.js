@@ -1,14 +1,10 @@
 // @flow
 
-import React from 'react'
-import { injectGlobal } from 'styled-components'
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-} from 'react-router-dom'
+import React from "react";
+import { injectGlobal } from "styled-components";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import { Resume } from './containers'
+import { Resume } from "./containers";
 
 injectGlobal`
   html body {
@@ -22,21 +18,21 @@ injectGlobal`
       font-size: 13px;
     }
   }
-`
+`;
 
 const App = () => (
   <Router>
     <Switch>
-      <Route exact path="/" render={() => <Resume company='' />} />
+      <Route exact path="/" render={() => <Resume company="" />} />
       <Route
         path="/:company"
         render={props => {
-          const company = props.match.params.company || ''
-          return <Resume company={company.toLowerCase()} />
+          const company = props.match.params.company || "";
+          return <Resume company={company.toLowerCase()} />;
         }}
       />
     </Switch>
   </Router>
-)
+);
 
 export default App;

@@ -1,9 +1,9 @@
 // @flow
 
-import { View } from './View'
+import { View } from "./View";
 
 export const ScreenOnly = View.extend`
-    @media print {
-        display: none;
-    }
-`
+  @media print {
+    display: none;
+  }
+`;
