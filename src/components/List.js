@@ -23,6 +23,10 @@ const Item = styled.li`
   }
 
   line-height: 1.6;
+
+  @media screen {
+    margin-bottom: 0.75em;
+  }
 `;
 
 export const List = (props: Props) => (

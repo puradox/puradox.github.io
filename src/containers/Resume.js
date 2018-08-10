@@ -104,7 +104,8 @@ export const Resume = (props: Props) => (
           to="September 2018"
           highlights={[
             "Implement caching of time series data; reducing response time by 98% (IndexedDB, Service Worker)",
-            "Design caching of performance reports; decreasing response time by 99% and surpassing stretch goals (IndexedDB, Service Worker)"
+            "Design caching of performance reports; decreasing response time by 99% and surpassing stretch goals (IndexedDB, Service Worker)",
+            "Contribute to standardizing frontend technologies across Chrome Operations"
           ]}
         />
         <Experience
@@ -121,21 +122,7 @@ export const Resume = (props: Props) => (
           to="June 2018"
           highlights={[
             "Teach middle and high school students how to implement their ideas with React Native",
-            "Mentor students to guide them through their projects and programming careers",
-            <Text>
-              Assist{" "}
-              <Link to="http://mathforservice.org/voluntu/about.html">
-                Voluntu
-              </Link>{" "}
-              (
-              <Link to="http://www.ardentacademy.com/index.php/news/306-voluntu-placed-2nd-at-2017-diamond-challenge">
-                placed 2nd
-              </Link>{" "}
-              at 2017{" "}
-              <Link to="http://diamondchallenge.org/">Diamond Challenge</Link>
-              ), AlzheimersGames, ChatterBot, Testaker, iCordis, ASB Vantage,
-              MathFight, HomeAutomation
-            </Text>
+            "Mentor students to guide them through their projects and programming careers"
           ]}
         />
         <ScreenOnly>

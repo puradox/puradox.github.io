@@ -28,10 +28,10 @@ export function chooseExperience(company: string) {
           , an iPad app allowing students to complete assignments; currently
           serving 400 students (Node.js, RethinkDB, REST, React Native)
         </Text>,
-        "Interview potential frontend developers and interns",
-        "Lead a team of 4 frontend developers to build the following applications:",
-        "Supervise Ardent Classroom, an iPad app for staff that eases student attendance and file management (React Native)",
-        "Supervise Ardent Family, an iOS and Android app that notifies parents of student performance and news (React Native)"
+        "Interview potential frontend engineers and interns",
+        "Lead teams to build the following applications:",
+        "Supervise Ardent Classroom, an iPad app built for staff; easing student attendance and file management (React Native)",
+        "Supervise Ardent Family, an iOS and Android app for parents; notifying of student performance and course updates (React Native)"
       ];
     default:
       return [
@@ -47,10 +47,10 @@ export function chooseExperience(company: string) {
         </Text>,
         "Redesign the entire application stack for microservice-based architecture; increasing API throughput by 300% (Docker, Kubernetes)",
         "Create backitup, a utility program for regularly scheduling database backups to Amazon S3; saving $30 per month (Go, RethinkDB)",
-        "Interview potential frontend developers and interns",
-        "Lead a team of 4 frontend developers to build the following applications:",
-        "Supervise Ardent Classroom, an iPad app for staff that eases student attendance and file management (React Native)",
-        "Supervise Ardent Family, an iOS and Android app that notifies parents of student performance and news (React Native)"
+        "Interview potential frontend engineers and interns",
+        "Lead teams to build the following applications:",
+        "Supervise Ardent Classroom, an iPad app built for staff; easing student attendance and file management (React Native)",
+        "Supervise Ardent Family, an iOS and Android app for parents; notifying of student performance and course updates (React Native)"
       ];
   }
 }
