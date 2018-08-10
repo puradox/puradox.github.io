@@ -18,6 +18,7 @@ import {
   Title,
   Experience
 } from "../components";
+
 import {
   chooseClasswork,
   chooseContributions,
@@ -26,6 +27,8 @@ import {
   chooseProficiencies,
   chooseProjects
 } from "./info";
+
+const GITHUB_URL = 'https://github.com/puradox/puradox.github.io/tree/develop';
 
 type Props = {
   company: string
@@ -61,7 +64,7 @@ export const Resume = (props: Props) => (
             <Text>
               <b>Hey {toTitle(props.company)}!</b> Glad to see you back! If
               you're technically inclined, take a look at my resume's source
-              code on <Link to="https://github.com/puradox/resume">GitHub</Link>
+              code on <Link to={GITHUB_URL}>GitHub</Link>
               .
             </Text>
           </Section>

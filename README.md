@@ -1,12 +1,12 @@
 <big><h1 align="center">Resume</h1></big>
 
 <p align="center">
-  <a href="https://github.com/puradox/resume/issues">
-    <img src="https://img.shields.io/github/issues/puradox/resume.svg" alt="Github Issues">
+  <a href="https://github.com/puradox/puradox.github.io/issues">
+    <img src="https://img.shields.io/github/issues/puradox/puradox.github.io.svg" alt="Github Issues">
   </a>
 
-  <a href="https://david-dm.org/puradox/resume?type=dev">
-    <img src="https://david-dm.org/puradox/resume/dev-status.svg" alt="Dev Dependencies">
+  <a href="https://david-dm.org/puradox/puradox.github.io?type=dev">
+    <img src="https://david-dm.org/puradox/puradox.github.io/dev-status.svg" alt="Dev Dependencies">
   </a>
 </p>
 
@@ -37,7 +37,7 @@ npm install
 npm start
 ```
 
-or 
+or
 
 ```sh
 npm run build
