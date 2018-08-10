@@ -142,5 +142,15 @@ export const Resume = (props: Props) => (
         </ScreenOnly>
       </Section>
     </Content>
+    <ScreenOnly>
+      <Spacer size="0.7em" />
+      <Line />
+      <Flex justify="space-between">
+        <Text>Last modified August 10, 2018</Text>
+        <Text>
+          <Link print>Print this page</Link>
+        </Text>
+      </Flex>
+    </ScreenOnly>
   </Page>
 );

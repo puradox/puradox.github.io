@@ -13,9 +13,9 @@ injectGlobal`
 
   #root {
     @media print {
-      width: 8.5in;
-      height: 11in;
-      font-size: 13px;
+    width: 8.5in;
+    height: 11in;
+    font-size: 13px;
     }
   }
 `;

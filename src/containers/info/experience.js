@@ -30,7 +30,7 @@ export function chooseExperience(company: string) {
         </Text>,
         "Interview potential frontend engineers and interns",
         "Lead teams to build the following applications:",
-        "Supervise Ardent Classroom, an iPad app built for staff; easing student attendance and file management (React Native)",
+        "Supervise Ardent Classroom, an iPad app for staff; easing student attendance and file management (React Native)",
         "Supervise Ardent Family, an iOS and Android app for parents; notifying of student performance and course updates (React Native)"
       ];
     default:
@@ -49,7 +49,7 @@ export function chooseExperience(company: string) {
         "Create backitup, a utility program for regularly scheduling database backups to Amazon S3; saving $30 per month (Go, RethinkDB)",
         "Interview potential frontend engineers and interns",
         "Lead teams to build the following applications:",
-        "Supervise Ardent Classroom, an iPad app built for staff; easing student attendance and file management (React Native)",
+        "Supervise Ardent Classroom, an iPad app for staff; easing student attendance and file management (React Native)",
         "Supervise Ardent Family, an iOS and Android app for parents; notifying of student performance and course updates (React Native)"
       ];
   }
